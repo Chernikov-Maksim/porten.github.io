@@ -1,0 +1,41 @@
+.footer {
+    background: #0F0F0F;
+    .wrapper {
+        @media (max-width: 1280px) {
+            padding: 0 1em;
+        }
+        @media (max-width: 992px) {
+            padding: 0 1em;
+        }
+        @media (max-width: 768px) {
+            padding: 0 1em;
+        }
+        @media (max-width: 576px) {
+            padding: 0 1em;
+        }
+        @media (max-width: 320px) {
+            padding: 0 1em;
+        }
+        max-width: 1150px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.0625em 0em;
+        span {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.75em;
+            color: #D0D0D0;
+        }
+        a {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 0.75em;
+            text-decoration-line: underline;
+            color: #D0D0D0;
+        }
+    }
+}
